@@ -27,6 +27,10 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	runtimeOnly("com.h2database:h2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.7")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.8")
 }
 
 tasks.withType<KotlinCompile> {
